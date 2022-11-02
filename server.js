@@ -20,9 +20,14 @@ server.get('/about', (req, res) => {
         root: __dirname
     });
 });
+server.get('/gallery', (req, res) => {
+    res.sendFile('/gallery.html', {
+        root: __dirname
+    });
+});
 
 server.get('/contact', (req, res) => { res.sendFile('/contact.html', { root: __dirname }); });
 
 server.listen(port, () => {
-    console.log('Express server started at port 8080');
+    console.log(`Express server started at port ${port}`);
 });
