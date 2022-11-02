@@ -9,8 +9,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Source Serif Variable", sans-serif;
+  font-family: "Grenze", sans-serif;
   background: #191919;
+  font-size: 15px;
   color: #fff;
 }
 
@@ -30,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Serif Variable", serif;
+  font-family: "Grenze", serif;
 }
 
 /*--------------------------------------------------------------
@@ -455,6 +456,8 @@ h6 {
   padding: 0;
 }
 
+
+
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
@@ -502,7 +505,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #FF8800;
-  font-family: "Alegreya", sans-serif;
+  font-family: "Grenze", sans-serif;
 }
 
 #hero h1 span {
@@ -688,6 +691,7 @@ section {
 
 .section-title {
   padding-bottom: 40px;
+  margin-top: 140px;
 }
 
 .section-title h2 {
@@ -699,7 +703,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Grenze", sans-serif;
 }
 
 .section-title h2::after {
@@ -716,7 +720,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Grenze", serif;
   color: #ff8800;
 }
 
@@ -778,7 +782,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  /* background: url("../img/about-bg.jpg") center center; */
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -1014,7 +1018,7 @@ section {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Grenze", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1131,7 +1135,7 @@ section {
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Grenze", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1489,7 +1493,7 @@ section {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
-  font-family: "Poppins", sans-serif;
+  font-family: "g", sans-serif;
 }
 
 .contact .info p {
@@ -1651,8 +1655,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 300;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Grenze", sans-serif;
 }
 
 #footer .footer-top .footer-info p {
