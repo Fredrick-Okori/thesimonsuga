@@ -139,6 +139,13 @@ h6 {
   z-index: 996;
 }
 
+h5.details {
+  font-family: sans-serif;
+font-size: 15px;
+padding: 10px;
+align-items: center;
+}
+
 #topbar.topbar-scrolled {
   top: -40px;
 }
@@ -681,7 +688,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 5px 0;
   overflow: hidden;
 }
 
@@ -785,7 +792,7 @@ section {
   /* background: url("../img/about-bg.jpg") center center; */
   background-size: cover;
   position: relative;
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 .about:before {
@@ -981,7 +988,7 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................""....................................................................""....................................................................";
+  content: "......................................................................" "...................................................................." "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1642,7 +1649,7 @@ section {
   background: #191919;
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
-  padding: 60px 0 30px 0;
+  padding: 20px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
