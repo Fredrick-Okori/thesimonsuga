@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Grenze", sans-serif;
+  /* font-family: "Grenze", sans-serif; */
   background: #191919;
   font-size: 15px;
   color: #fff;
@@ -505,7 +505,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #FF8800;
-  font-family: "Grenze", sans-serif;
+  /* font-family: "Grenze", sans-serif; */
 }
 
 #hero h1 span {
@@ -703,7 +703,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Grenze", sans-serif;
+  /* font-family: "Grenze", sans-serif; */
 }
 
 .section-title h2::after {
@@ -1018,7 +1018,7 @@ section {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
-  font-family: "Grenze", sans-serif;
+  /* font-family: "Grenze", sans-serif; */
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1135,7 +1135,7 @@ section {
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: "Grenze", sans-serif;
+  /* font-family: "Grenze", sans-serif; */
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1655,7 +1655,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 300;
-  font-family: "Grenze", sans-serif;
+  /* font-family: "Grenze", sans-serif; */
 }
 
 #footer .footer-top .footer-info p {
