@@ -9,7 +9,6 @@ server.use(express.urlencoded({ extended: true }));
 server.use(express.static(path.join(__dirname, 'public')));
 
 
-server.set('port', process.env.PORT || 8080);
 
 server.get('/', (req, res) => {
     res.sendFile('/index.html', { root: __dirname });
