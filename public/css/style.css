@@ -350,7 +350,7 @@ align-items: center;
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #FF8800;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -395,7 +395,7 @@ align-items: center;
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -404,13 +404,13 @@ align-items: center;
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1a1814;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ff8800;
+  color: #FF8800;
 }
 
 .navbar-mobile .getstarted,
