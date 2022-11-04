@@ -804,6 +804,15 @@ section {
   left: 0;
   right: 0;
 }
+.about--container:before{
+  content: "";
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 .about .about-img {
   position: relative;
@@ -1633,6 +1642,12 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.about--description{
+  
+  line-height: 1.5em;
+  font-size: 17px;
 }
 
 /*--------------------------------------------------------------
