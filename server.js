@@ -44,8 +44,6 @@ server.get('/gallery', (req, res) => {
     });
 });
 
-
-
 server.listen(port, () => {
     console.log(`Express server started at port ${port}`);
 });
