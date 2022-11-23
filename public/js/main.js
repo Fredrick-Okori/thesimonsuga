@@ -306,6 +306,5 @@ submit.addEventListener('click', function handleClick(event) {
   success.style.display = 'block';
   form.style.display = 'none';
 
-
-
 })
+
